@@ -1,0 +1,21 @@
+[general]
+name=knoogle
+description=Open Google Maps from QGis at mouse-click location
+about=MapTool to generate callable URLs for Google Maps at Canvas-Click-Position
+  Three variants:
+    Maps -> Normal Google-Maps-Mode, centered and scaled according to QGis-canvas
+    Places -> Google Maps with marker for storing position in Google-internal-lists or calculate routes
+    Routes -> opens Google Maps with two points in route-calculating-mode
+category=Plugins
+version=1.0
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+author=Ludwig Kniprath
+email=ludwig@kni-online.de
+icon=icons/Google_Maps_icon_(2020).png
+tags=python,google,google maps,places,routing
+homepage=https://github.com/Ludwig-K/knoogle
+tracker=https://github.com/Ludwig-K/knoogle/issues
+repository=https://github.com/Ludwig-K/knoogle
+experimental=False
+deprecated=False
